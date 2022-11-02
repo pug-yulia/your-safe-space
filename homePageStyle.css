@@ -13,7 +13,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(102, 204, 102);
 }
 
 a {
@@ -49,6 +49,21 @@ a {
 .left {
     font-size: large;
     
+}
+
+.container1 {
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.spalshArt {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.websiteDescription {
+    text-align: right;
 }
 
 /*.grid {
