@@ -51,23 +51,7 @@ a {
     
 }
 
-.container1 {
-    background-color: blueviolet;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -300px;
-
-}
-.spalshArt {
-    justify-content: left;
-    align-items: flex-start;
-}
-
-.websiteDescription {
-    text-align: right;
-}
-
-/*.grid {
+.grid {
     display:grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 4fr;
@@ -94,7 +78,7 @@ img {
     width: 40px;
     height: 40px;
     position: fixed;
-    align-items: left;
+    align-items: flex-start;
     border-radius: 50%;
     margin: -23px;
     margin-left: 10px;
@@ -104,4 +88,4 @@ img {
 h3 {
     color: cadetblue;
     
-}*/
+}
