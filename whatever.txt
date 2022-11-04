@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zxx">
+ <head>
+    <title> Your Safe Space </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homePageStyle.css">
+   
+</head>   
+
+<body>
+   
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="#" class="left"> 
+                    <img src="R.jpg" alt="logo" >
+                </a>
+                <div class="right">
+        
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Contacts</a>
+        
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="grid">
+        
+   <section>
+        <div class="txtField">
+           
+            <article>  
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quisquam adipisci impedit dolorem laborum doloremque porro est hic consequatur repudiandae, praesentium eos. Provident, magnam animi possimus sint eveniet mollitia. Incidunt eum saepe vitae reprehenderit laboriosam delectus neque quos id consectetur dicta ipsam dolorem magni praesentium reiciendis, doloremque ut, quaerat eius!</p>
+            </article>
+            <article>  
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quisquam adipisci impedit dolorem laborum doloremque porro est hic consequatur repudiandae, praesentium eos. Provident, magnam animi possimus sint eveniet mollitia. Incidunt eum saepe vitae reprehenderit laboriosam delectus neque quos id consectetur dicta ipsam dolorem magni praesentium reiciendis, doloremque ut, quaerat eius!</p>
+            </article>
+            <article>  
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quisquam adipisci impedit dolorem laborum doloremque porro est hic consequatur repudiandae, praesentium eos. Provident, magnam animi possimus sint eveniet mollitia. Incidunt eum saepe vitae reprehenderit laboriosam delectus neque quos id consectetur dicta ipsam dolorem magni praesentium reiciendis, doloremque ut, quaerat eius!</p>
+            </article>
+            <article>  
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quisquam adipisci impedit dolorem laborum doloremque porro est hic consequatur repudiandae, praesentium eos. Provident, magnam animi possimus sint eveniet mollitia. Incidunt eum saepe vitae reprehenderit laboriosam delectus neque quos id consectetur dicta ipsam dolorem magni praesentium reiciendis, doloremque ut, quaerat eius!</p>
+            </article>
+            <article>  
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quisquam adipisci impedit dolorem laborum doloremque porro est hic consequatur repudiandae, praesentium eos. Provident, magnam animi possimus sint eveniet mollitia. Incidunt eum saepe vitae reprehenderit laboriosam delectus neque quos id consectetur dicta ipsam dolorem magni praesentium reiciendis, doloremque ut, quaerat eius!</p>
+            </article>
+            
+        </div>
+        
+        </section>
+        </div>
+    
+    </body>
+    </html>
+
+
+    @media(min-width:468px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+body {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(75, 180, 75);
+}
+
+a {
+    color: rgb(243, 206, 106);
+    text-decoration: underline;
+}
+
+.container {
+   
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation {
+    width: 95%;
+    margin: auto;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-right: 10px;
+}
+
+.left {
+    font-size: large;
+    
+}
+
+.grid {
+    display:grid;
+    grid-auto-rows: minmax(300px, auto);
+
+    justify-items: stretch;
+    margin-top: 100px;
+
+}
+
+
+img {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin: -23px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+h3 {
+    color: cadetblue;
+    
+}
