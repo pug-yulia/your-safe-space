@@ -9,10 +9,22 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
-    width: 100px;
-    height: 100px;
-    background-image: url("topPic.jpg");
-    background-position: bottom;
+    width: 100%;
+    height: 400px;
+    background-image: url("mental-health-concept-cropped.jpg");
     background-size: cover;
+    background-position: bottom; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-content {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    margin-left: 5%;
+    font-size: large;
+
+  
 }
