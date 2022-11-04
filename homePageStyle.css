@@ -33,3 +33,28 @@ header {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links li {
+    margin: 0 30px;
+    
+}
