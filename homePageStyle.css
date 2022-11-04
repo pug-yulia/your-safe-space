@@ -25,6 +25,11 @@ header {
     text-shadow: 2px 2px black;
     margin-left: 5%;
     font-size: large;
+}
 
-  
+.line {
+    width: 90px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
