@@ -1,4 +1,4 @@
-@media(min-width:468px) {
+@media(min-width:600px) {
     .container {
         width: 100%;
         margin: auto;
@@ -13,7 +13,7 @@ body {
 header {
     width: 100%;
     height: 400px;
-    background-image: url("mental-health-concept-cropped.jpg");
+    background-image: url("cloudss.jpg");
     background-size: cover;
     background-position: bottom; 
     display: flex;
@@ -22,9 +22,10 @@ header {
 }
 .header-content {
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
     margin-left: 5%;
     font-size: large;
+    margin-top: 50px;
 }
 
 .line {
@@ -32,54 +33,100 @@ header {
     height: 4px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+ 
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .navbar {
     display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px;
     color: rgb(255, 255, 255);
+    background-color: rgb(219, 150, 162);
+    position: fixed;
+    width: 100%;
 }
 
-ul {
-    list-style: none;
+.logo {
+    margin: .5rem;
+    margin-left: 10px;
 }
 
 .links {
     display: flex;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
 }
 
 .links li {
-    margin: 0 30px;
+    list-style: none;
+    padding: 1rem;
+    display: block;
     
+   
 }
 
-.contacts {
-    margin-right: 15px;
+.links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
 }
 
-.web-description {
-    display: grid;
-    background-color: rgb(176, 176, 176); 
-    grid-template-columns: 50% 50%;
+.links li:hover {
+    background-color: pink;
 }
 
-.description-pic {
-    grid-column: 2/2;
-    grid-row: 2/2;
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    color: black;
+}
+
+.toggle-button .bar {
+    height: 3px;
     width: 100%;
-    height: auto;
-    justify-content: flex-end;
-    justify-content: end;
-    
+    border-radius: 10px;
+    background: white;
+    border-color: white;
+ 
 }
-.description {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    justify-content: flex-start;
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+    .links {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 30px;
+        display: none;
+       
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links li {
+        text-align: center;
+    }
+    .links li a {
+     
+       padding: .5rem 1rem;
+
+    }
+    .links.active {
+        display: flex;
+    }
 }
