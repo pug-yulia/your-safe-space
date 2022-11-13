@@ -169,3 +169,41 @@ header {
         align-items: center;
      }
     }
+
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .toggle-button {
+            display: flex;
+        }
+        .links {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 20px;
+            display: none;
+           
+        }
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .links li {
+            text-align: center;
+        }
+        .links li a {
+         
+           padding: .5rem 1rem;
+    
+        }
+        .links.active {
+            display: flex;
+        }
+    
+        .web-description {
+           justify-content: center;
+           align-items: center;
+        }
+v    
+    }
