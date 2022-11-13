@@ -1,4 +1,4 @@
-@media(min-width:600px) {
+@media(min-width:390px) {
     .container {
         width: 100%;
         margin: auto;
@@ -128,7 +128,7 @@ header {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 390px) {
     .toggle-button {
         display: flex;
     }
@@ -153,7 +153,6 @@ header {
 
     }
     .links.active {
-        
         display: flex;
     }
 
@@ -163,3 +162,10 @@ header {
     }
 
 }
+
+@media (max-width: 600px) {
+    .web-description {
+        justify-content: center;
+        align-items: center;
+     }
+    }
