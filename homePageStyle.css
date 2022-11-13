@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
 }
 
 header {
@@ -102,6 +103,31 @@ header {
  
 }
 
+.web-description {
+    display: flex;
+
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.home-description {
+    margin: 0;
+    max-width: 50%;
+    font-size: larger;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.description-pic {
+   margin: 0;   
+}
+
+.description-pic > img {
+    border-radius: 25px;
+}
+
+
 @media (max-width: 600px) {
     .toggle-button {
         display: flex;
@@ -130,4 +156,10 @@ header {
         
         display: flex;
     }
+
+    .web-description {
+       justify-content: center;
+       align-items: center;
+    }
+
 }
