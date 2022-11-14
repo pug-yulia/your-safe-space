@@ -161,6 +161,7 @@ header {
     .web-description {
        justify-content: center;
        align-items: center;
+       margin: 5%;
     }
 
 }
@@ -169,6 +170,7 @@ header {
     .web-description {
         justify-content: center;
         align-items: center;
+        margin: 5%;
      }
     }
 
@@ -179,34 +181,8 @@ header {
     and (-webkit-min-device-pixel-ratio: 3) {
         body {
             margin: auto;
-        }
-        .toggle-button {
-            display: flex;
-        }
-        .links {
             width: 100%;
-            flex-direction: column;
-            margin-top: 20px;
-            display: none;
-           
         }
-        .navbar {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-    
-        .links li {
-            text-align: center;
-        }
-        .links li a {
-         
-           padding: .5rem 1rem;
-    
-        }
-        .links.active {
-            display: flex;
-        }
-    
         .web-description {
            justify-content: center;
            align-items: center;
@@ -220,6 +196,7 @@ header {
     and (min-resolution: 192dpi) {
         body {
             margin: auto;
+            width: 100%;
         }
         .toggle-button {
             display: flex;
@@ -253,41 +230,3 @@ header {
            align-items: center;
         }    
 }*/
-
-@media only screen 
-    and (min-device-width: 500px) {
-        body {
-            margin: auto;
-        }
-        .toggle-button {
-            display: flex;
-        }
-        .links {
-            width: 100%;
-            flex-direction: column;
-            margin-top: 20px;
-            display: none;
-           
-        }
-        .navbar {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-    
-        .links li {
-            text-align: center;
-        }
-        .links li a {
-         
-           padding: .5rem 1rem;
-    
-        }
-        .links.active {
-            display: flex;
-        }
-    
-        .web-description {
-           justify-content: center;
-           align-items: center;
-        } 
-    }
