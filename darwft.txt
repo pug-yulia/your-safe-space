@@ -1,0 +1,232 @@
+@media(min-width:390px) {
+   body { 
+    width: 100%;
+    margin: auto;
+}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url("cloudss.jpg");
+    background-size: cover;
+    background-position: bottom; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-content {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin-left: 5%;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.line {
+    width: 90px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+ 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 150, 162);
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    margin: .5rem;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.links li {
+    list-style: none;
+    padding: 1rem;
+    display: block;
+   
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+   
+}
+
+.links li:hover {
+    background-color: pink;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    color: black;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+    border-color: white;
+ 
+}
+
+.web-description {
+    display: flex;
+
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.home-description {
+    margin: 0;
+    max-width: 50%;
+    font-size: larger;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.description-pic {
+   margin: 0;   
+}
+
+.description-pic > img {
+    border-radius: 25px;
+}
+
+
+/* responsivess*/
+
+@media (max-width: 390px) {
+    .toggle-button {
+        display: flex;
+    }
+    .links {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        display: none;
+       
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links li {
+        text-align: center;
+    }
+    .links li a {
+     
+       padding: .5rem 1rem;
+
+    }
+    .links.active {
+        display: flex;
+    }
+
+    .web-description {
+       justify-content: center;
+       align-items: center;
+       margin: 5%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .web-description {
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+     }
+    }
+
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 812px)
+    and (max-device-width: 360px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        body {
+            margin: auto;
+            width: 100%;
+        }
+        .web-description {
+           justify-content: center;
+           align-items: center;
+        }    
+}
+
+/*@media only screen 
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 2) 
+    and (min-resolution: 192dpi) {
+        body {
+            margin: auto;
+            width: 100%;
+        }
+        .toggle-button {
+            display: flex;
+        }
+        .links {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 20px;
+            display: none;
+           
+        }
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .links li {
+            text-align: center;
+        }
+        .links li a {
+         
+           padding: .5rem 1rem;
+    
+        }
+        .links.active {
+            display: flex;
+        }
+    
+        .web-description {
+           justify-content: center;
+           align-items: center;
+        }    
+}*/
