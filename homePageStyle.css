@@ -110,7 +110,7 @@
    margin: 5%;
    font-size: large;
 
-}
+ }
 
 .home-description {
     grid-column-start: 1;
@@ -284,9 +284,14 @@
         flex-direction: column;
     }
 
+    .description-pic {
+        max-width: 100%;
+        height: auto;
+    }
+
     .home-description {
         justify-content: center;
-        margin-left: 5%;
+        
         
     }
 
