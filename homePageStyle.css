@@ -260,7 +260,7 @@
         display: flex;
     }
 
-    .home-description {
+   /* .home-description {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
@@ -272,6 +272,15 @@
         grid-column-end: 2;
         grid-row-start: 2;
         margin: 0;
+    }
+    */
+    .web-description {
+        display: flex;
+        padding: 0;
+        margin: 0; 
+        max-width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
     }
 
     .flex-box1 {
