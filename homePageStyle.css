@@ -130,8 +130,8 @@
     border-radius: 25px;
 }
 
-.container {
-    /* width: auto;
+/*.container {
+     width: auto;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -149,9 +149,9 @@
     align-items: center;
     justify-content: center;
     display: block;
- */ 
+  
 
-}
+}*/
 
 .flex-box1 {
     display: flex;
@@ -282,6 +282,11 @@
         max-width: 100%;
         justify-content: space-between;
         flex-direction: column;
+    }
+
+    .home-description {
+        justify-content: center;
+        
     }
 
     .flex-box1 {
