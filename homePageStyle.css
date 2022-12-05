@@ -275,7 +275,7 @@
     }
     */
     .web-description {
-        max-width: auto;
+        max-width: fit-content;
         display: flex;
         padding: 0;
         margin: 0; 
