@@ -264,14 +264,14 @@
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
-        justify-content: center;
+        margin-left: 12%;
     }
     
     .description-pic {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
-        justify-content: center;
+        margin-left: 5%;
     }
 
     .flex-box1 {
