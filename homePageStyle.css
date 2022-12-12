@@ -214,7 +214,7 @@
  
 .imgBox img {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 
@@ -285,14 +285,17 @@
     }
 
     .description-pic {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
+       
+        align-items: center;
+        padding-left: 8%;
     }
 
     .home-description {
-        justify-content: center;
-        
-        
+       
+        align-items: center;
+        padding-left: 8%;
     }
 
     .flex-box1 {
