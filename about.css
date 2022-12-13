@@ -9,12 +9,15 @@
      margin: 0;
      padding: 0;
      background-color: antiquewhite;
+    
  }
  
  
  * {
      box-sizing: border-box;
  }
+
+
  
  .navbar {
      display: flex;
@@ -23,7 +26,11 @@
      color: rgb(255, 255, 255);
      background-color: rgb(219, 150, 162);
      position: fixed;
+    
      width: 100%;
+     top: 0;
+     
+     
  }
  
  .logo {
@@ -77,14 +84,46 @@
      border-color: white;
   
  }
- 
- .web-description {
-   display: grid;
-   column-gap: 5px;
-   row-gap: 5px;
-   margin: 5%;
-   font-size: large;
 
+ .about {
+    margin-top: 110px;
+    text-align: center;
+ }
+
+ article {
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+ }
+
+ img {
+    height: 300px;
+    width: auto;
+    margin-top: -30px;
+    padding-bottom: 5px;
+ }
+
+
+
+
+.footer {
+    background-color: rgb(219, 150, 162);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+
+   
+}
+
+.footer img {
+    max-height: 30px;
+    width: auto;
 }
 
 
@@ -124,6 +163,34 @@
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction: column;
+       
+    }
+
+    .left {
+        margin-left: 3%;
+    }
+
+    .right {
+        margin-left: 3%;
+    }
+
+    .about {
+        margin-top: 50px;
+       
+    }
+
+    article {
+        padding-top: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+
     }
 
 }
