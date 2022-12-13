@@ -124,7 +124,7 @@
     grid-column-start: 3;
     grid-column-end: 5;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
     height: auto;
    
 }
@@ -315,13 +315,6 @@ text-align: center;
         grid-row-start: 1;
         margin: 0;
     }
-    
-    .description-pic {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        margin: 0;
-    }
     */
     .web-description {
         max-width: fit-content;
@@ -334,7 +327,8 @@ text-align: center;
     }
 
     .description-pic {
-        max-width: 80%;
+        width: 100%;
+        max-width: 100px;
         height: auto;
        
         align-items: center;
