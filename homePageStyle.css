@@ -321,18 +321,23 @@ text-align: center;
         display: flex;
         padding: 0;
         margin: 0; 
-        max-width: 100%;
+        width: 100%;
         justify-content: space-between;
         flex-direction: column;
     }
 
     .description-pic {
         width: 100%;
-        max-width: 100px;
         height: auto;
        
         align-items: center;
-        padding-left: 8%;
+        padding: 5%;
+    }
+
+    .plssmaller {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
     }
 
     .home-description {
