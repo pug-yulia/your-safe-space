@@ -212,9 +212,8 @@
     text-align: center;
 }
 
-#card-links {
+.card-links {
     text-decoration: none;
-    color: (219, 150, 162);
     font-weight: bold;
 }
 

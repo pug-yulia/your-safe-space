@@ -226,12 +226,23 @@
     text-align: center;
 }
 
-#card-links {
+#card-links1 {
     text-decoration: none;
-    color: (219, 150, 162);
     font-weight: bold;
 }
 
+#card-links2 {
+    text-decoration: none;
+    font-weight: bold;
+}
+#card-links3 {
+    text-decoration: none;
+    font-weight: bold;
+}
+#card-links4 {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .button {
     background-color:rgb(219, 150, 162);
