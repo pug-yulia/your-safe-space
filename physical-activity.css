@@ -85,26 +85,75 @@
   
  }
 
- .about {
-    margin-top: 110px;
+
+ 
+ 
+ .title {
     text-align: center;
  }
 
- article {
-  padding-bottom: 50px;
-  padding-left: 20%;
-  padding-right: 20%;
- }
+ 
+ 
+.box1 {
+    
+    display: flex;
+        /*flex-wrap: wrap;*/
+        padding: 0;
+        margin: 0; 
+        max-width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.box2 {
+    
+    display: flex;
+        /*flex-wrap: wrap;*/
+        padding: 0;
+        margin: 0; 
+        max-width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.box3 {
+    
+    display: flex;
+        /*flex-wrap: wrap;*/
+        padding: 0;
+        margin: 0; 
+        max-width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.left {
+    max-width: 50%;
+    float: left;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.right {
+  
+    float: right;
+    align-items: flex-end;
+    justify-content: right;
+    max-width: 50%;
+}
+
 
  img {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
-    margin-top: -30px;
-    padding-bottom: 5px;
  }
-
-
 
 
 .footer {
@@ -118,6 +167,7 @@
     bottom: 0;
     width: 100%;
     height: auto;
+    margin-top: 10px;
 
    
 }
@@ -130,6 +180,15 @@
 .foot {
     max-height: 30px;
     width: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+
+h3 {
+    text-align: center;
 }
 
 
@@ -180,30 +239,22 @@
     }
 
     .left {
-        margin-left: 3%;
-    }
-
-    .right {
-        margin-left: 3%;
-    }
-
-    .about {
-        margin-top: 50px;
-       
-    }
-
-    article {
-        padding-top: 10px;
-        padding-left: 10%;
-        padding-right: 10%;
-
-    }
-
-    img {
         max-width: 100%;
-        max-width: 500px;
-        height: auto;
+        float: left;
+        align-items: flex-start;
+        justify-content: left;
         padding: 5%;
     }
+    
+    .right {
+      
+        float: right;
+        align-items: flex-end;
+        justify-content: right;
+        max-width: 100%;
+        padding: 5%;
+    }
+    
+
 
 }
