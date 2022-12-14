@@ -226,6 +226,13 @@
     text-align: center;
 }
 
+#card-links {
+    text-decoration: none;
+    color: (219, 150, 162);
+    font-weight: bold;
+}
+
+
 .button {
     background-color:rgb(219, 150, 162);
     border: none;
