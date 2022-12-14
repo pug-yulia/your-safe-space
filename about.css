@@ -127,6 +127,11 @@
     width: auto;
 }
 
+.foot {
+    max-height: 30px;
+    width: auto;
+}
+
 
  @media (max-width: 800px) {
     .navbar {
